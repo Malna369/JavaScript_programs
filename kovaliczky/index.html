@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <title>Kovaliczky Eva</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="imgage/jpg" href="images/adobe/cute_monster02.jpg"/>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="assets/home.css">
+  <link rel="stylesheet" href="assets/modals.css">
+  <script type="text/javascript" src="assets/script.js"></script>
+  <script type="text/javascript" src="assets/countdown.js"></script>
+
+  <link href='https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700,700italic,900,900italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+
+  
+</head>
+
+<body onload="countdown(2016,7,20,'tday',0,'thour',0,'tmin','tsec','tcountdown')">
+  <div id="container" class="container text-center">
+
+    <div id="heading">
+      <h1> Hello, I'm Eva Kovaliczky.<br><small>Welcome to my Web Page!</small></h1>
+    </div>
+
+    <div id="menu">    
+      <nav class="menu">
+        <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
+        <label class="menu-open-button" for="menu-open">
+          <span>Menu</span>
+        </label>
+
+        <button type="button" class="btn menu-item blue" data-toggle="modal" data-target="#myWork">Work</button>
+        <button type="button" class="btn menu-item green" data-toggle="modal" data-target="#mySkills">Skills</button>
+        <button type="button" class="btn menu-item red" data-toggle="modal" data-target="#myDesign">Design</button>
+        <button type="button" class="btn menu-item purple" data-toggle="modal" data-target="#mySchool">School</button>
+        <button type="button" class="btn menu-item orange" data-toggle="modal" data-target="#myContact">Contact</button>
+        <button type="button" class="btn menu-item lightblue" data-toggle="modal" data-target="#myMe">Me</button>
+      </nav>
+    </div>
+
+    <div id="pic">
+      <img class="img-responsive" src="images/cute_monster2.jpg" alt="Cute Monster">
+    </div>
+
+  </div>
+
+<!-- Modals WORK -->
+<div id="myWork" class="modal modal-wide fade"  tabindex="-1" role="dialog" aria-labelledby="myModalWork">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h1 class="modal-title" id="myModalWork">About Work</h1>
+      </div>
+      <div class="modal-body">
+        <div>
+          <h1>Actual Projects</h1>
+          <div class="project">
+            <h3>Refresh the <a href="http://www.titkom.hu/tataicsillagda.html" target="_blank">WebPage of Tatai Csillagda</a></h3>
+            <p>Release: July 11, 2016</p>
+            <div id="tcountdown">
+              <span><span id="tday"></span>&nbsp;days&nbsp;</span>
+              <span><span id="thour"></span>&nbsp;hours&nbsp;</span>
+              <span><span id="tmin"></span>&nbsp;min&nbsp;</span>
+              <span><span id="tsec"></span>&nbsp;sec&nbsp;</span>
+            </div>
+          </div>
+          <div class="project">
+            <h3>Create a WebPage and Refresh the Logo for <a href="https://www.facebook.com/KVVKamarak%C3%B3rus-375556885806216/?fref=ts" target="_blank">KVVK</a></h3>
+            <p>Release: Estimation in progress</p>
+          </div>
+        </div>
+        <h1>Released Projects</h1>
+        <div class="row">
+          <div class="col-lg-1 col-lg-offset-4 col-md-1 col-md-offset-4 col-sm-1 col-sm-offset-4">
+            <h3 class="date">2011</h3>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <h3>Logo Design of <a href="https://www.facebook.com/BioDos-Team-266306006773191/" target="_blank">BioDos Team</a></h3>
+          </div>         
+        </div>
+
+        <h1>Experience</h1>
+        <div class="row">
+          <div class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1">
+            <h3 class="date">April, 2016 – June, 2016</h3>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 text-center">
+            <h3>Web Developer<br><small>JacsoMedia Kft.</small></h3>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <button type="button" class="btn blue workMore" data-toggle="collapse" data-target="#JacsoContent" aria-expanded="false" aria-controls="JacsoContent">More</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-7 col-lg-offset-4 col-md-7 col-md-offset-4 col-sm-7 col-sm-offset-4 collapse" id="JacsoContent">
+            <ul>
+              <li>Creating sitebulid from design.</li>
+              <li>Using HTML, CSS, SASS, JavaScript jQuery, Bootsrtap and PHP for sitebuild.</li>
+              <li>Content uploading and template modification via inner CMS.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1">
+            <h3 class="date">June, 2014 – December, 2015</h3>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 text-center">
+            <h3>Technical Support Engineer<br><small>Patton Hungary Zrt.</small></h3>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <button type="button" class="btn blue workMore" data-toggle="collapse" data-target="#PattonContent" aria-expanded="false" aria-controls="PattonContent">More</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-7 col-lg-offset-4 col-md-7 col-md-offset-4 col-sm-7 col-sm-offset-4 collapse" id="PattonContent">
+            <ul>
+              <li>Work with Patton Regional Sales Managers and Patton Support Departments in supporting existing and prospective accounts, end-users and partners.</li>
+              <li>Support selling process by strong technical knowledge.</li>
+              <li>Install, configure and support the complete line of SmartNode VoIP products for data, voice, and telephony (analog, ISDN) applications.</li>
+              <li>Understand and analyze customer requirements and suggest corresponding solutions.</li>
+              <li>Help, Install, Configure, Debug customer installations as pre-sales business development.</li>
+              <li>Provide Tier 1 and 2 technical support for support requests this includes and is not limited to Channels, Distributors, Integrators and End Users for all Patton products and solutions.</li>
+              <li>Work with customer via: Phone, Email, Instant Messaging, and in Person.</li>
+            </ul>
+          </div>
+        </div>
+    
+
+        <div class="row">
+          <div class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1">
+            <h3>January, 2012 – June, 2014</h3>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 text-center">
+            <h3>System Engineer<br><small>Ericsson Hungary Kft.</small></h3>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <button type="button" class="btn blue workMore" data-toggle="collapse" data-target="#EricssonContent" aria-expanded="false" aria-controls="EricssonContent">More</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-7 col-lg-offset-4 col-md-7 col-md-offset-4 col-sm-7  col-sm-offset-4 collapse" id="EricssonContent">
+            <ul>
+              <li>
+                <p>Basic Tasks:</p>
+                <ul>
+                  <li>Performance measurements, traffic modelling and network analysis (2G/3G/4G).</li>
+                  <li>Participation in international projects.</li>
+                </ul>
+              </li>
+              <li>
+                <p>Main projects:</p>
+                <ol>
+                  <li>
+                    <p>South-Sudan:</p>
+                    <ul>
+                      <li>Understand and analyze customer requirements.</li>
+                      <li>Measurement of an entire mobile network.</li>
+                      <li>Provide technical presentation and full documentation for customer.</li>
+                      <li>Work independently</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <p>Spain:</p>
+                    <ul>
+                      <li>Half a year experience in Malaga.</li>
+                      <li>Provide technical support for development teams (Spanish, Indian, Hungarian, Australian) and manage their work.</li>
+                      <li>Knowledge of Scrum and work as a shared PO.</li>
+                      <li>Knowledge of KANBAN</li>
+                      <li>Design of new product User Interface with the development team based on the market demand.</li>
+                      <li>Analyse of future business cases and telecommunication trends.</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <p>Indonesia</p>
+                     <ul>
+                      <li>Two weeks experience in Jakarta.</li>
+                      <li>Measuring of mobil network in different aspects.</li>
+                    </ul>
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <p>Other tasks / Skills:</p>
+                <ul>
+                  <li>Communication with customers, analyze and understand their requirements.</li>
+                  <li>Excellent verbal and written technical communication skills in English.</li>
+                  <li>Writing of full technical documentation.</li>
+                  <li>Cost and time estimation.</li>
+                  <li>Teamwork and work independently.</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1">
+            <h3>June, 2009 – October, 2009</h3>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 text-center">
+            <h3>Student Worker<br><small>Nokia Siemens Networks Hungary</small></h3>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <button type="button" class="btn blue workMore" data-toggle="collapse" data-target="#NokiaContent" aria-expanded="false" aria-controls="NokiaContent">More</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-7 col-lg-offset-4 col-md-7 col-md-offset-4 col-sm-7 col-sm-offset-4 collapse" id="NokiaContent">
+            <ul>
+              <li>Network scaling simulations methods with NS2 on HSPA, LTE networks.</li>
+              <li>Writing of Shell Scripts to automate the evaluation of simulations.</li>
+            </ul>
+          </div>
+        </div>
+        
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modals SKILLS -->
+<div id="mySkills" class="modal modal-wide fade"  tabindex="-1" role="dialog" aria-labelledby="myModalSkills">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h1 class="modal-title" id="myModalSkills">Skills</h1>
+      </div>
+      <div class="modal-body">
+        <h1 id="prof">Professional Skills</h1>
+
+        <div class="row">
+          <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 text-center">
+            <h3>Web Development Skills</h3>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <button type="button" class="btn green skillMore" data-toggle="collapse" data-target="#WebContent" aria-expanded="false" aria-controls="WebContent">More</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 text-center collapse" id="WebContent">            
+            <p>HTML5</p>
+            <p>CSS3 / SASS</p>
+            <p>JavaScript / jQuery / AngularJS</p>
+            <p>Bootstrap / Responsive Web Design</p>
+            <p>Mockup Builder</p>
+            <p>Adobe Photoshop / Adobe Illustrator</p>            
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 text-center">
+            <h3>Programming Skills</h3>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <button type="button" class="btn green skillMore" data-toggle="collapse" data-target="#ProgContent" aria-expanded="false" aria-controls="ProgContent">More</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 text-center collapse" id="ProgContent">            
+            <p>Java / C / C++</p>
+            <p>Assembly / Verilog</p>
+            <p>MySQL</p>
+            <p>MATLAB</p>
+            <p>Shell Script / UNIX Environment</p>            
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 text-center">
+            <h3>Other Skills</h3>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <button type="button" class="btn green skillMore" data-toggle="collapse" data-target="#OtherContent" aria-expanded="false" aria-controls="OtherContent">More</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 text-center collapse" id="OtherContent">            
+            <p>Eclipse / Microsoft Visual Studio</p>
+            <p>Microsoft Office / Open Office</p>
+            <p>JIRA / Confluence</p>
+            <p>Wireshark</p>
+            <p>GIT</p>            
+          </div>
+        </div>
+
+        <h1>Language</h1>
+        <div class="row">
+          <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 text-center">
+            <h3>English</h3>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <button type="button" class="btn green skillMore" data-toggle="collapse" data-target="#EnContent" aria-expanded="false" aria-controls="EnContent">More</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 text-center collapse" id="EnContent">            
+            <p>Level: C1</p>
+            <p>Excellent verbal and written communication skills</p>           
+          </div>
+        </div>        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modals DESIGN -->
+<div id="myDesign" class="modal modal-wide fade"  tabindex="-1" role="dialog" aria-labelledby="myModalDesign">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h1 class="modal-title" id="myModalDesign">Design</h1>
+      </div>
+      <div class="modal-body">
+        <h1>My Pics in Photoshop and Illustrator</h1>
+
+        <div id="myCarousel" class="carousel" data-ride="carousel" data-interval="false">
+
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+            <li data-target="#myCarousel" data-slide-to="6"></li>
+            <li data-target="#myCarousel" data-slide-to="7"></li>
+          </ol>
+
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="images/adobe/Space_icon.jpg" alt="Urhajo">
+            </div>
+        
+            <div class="item">              
+              <img src="images/adobe/cute_monster02.jpg" alt="Szornyecske">
+            </div>
+
+            <div class="item">
+              <img src="images/adobe/Pencils.jpg" alt="Ceruzak">
+            </div>
+      
+            <div class="item">
+              <img src="images/adobe/key_with_ribbon.jpg" alt="Kulcs Szalaggal">
+            </div>
+
+            <div class="item">
+              <img src="images/adobe/diamond.jpg" alt="Gyemant">
+            </div>
+
+            <div class="item">
+              <img src="images/adobe/OzLandscape.jpg" alt="Oz Erkezese">
+            </div>
+
+            <div class="item">
+              <img src="images/adobe/bexus_logo.jpg" alt="Bexus Logo">
+              <div class="carousel-caption">
+                <a class="btn red designMore" href="https://www.facebook.com/BioDos-Team-266306006773191/" target="_blank"><span>More</span></a>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/adobe/KVVKlogo.png" alt="KVVK Logo">
+              <div class="carousel-caption">
+                <a class="btn red designMore" href="https://www.facebook.com/KVVKamarak%C3%B3rus-375556885806216/?fref=ts" target="_blank"><span>More</span></a>
+              </div>
+            </div>
+
+          </div>
+
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span><i class="fa fa-arrow-right fa-2x" aria-hidden="true"></i></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+      </div>        
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modals SCHOOL -->
+<div id="mySchool" class="modal modal-wide fade"  tabindex="-1" role="dialog" aria-labelledby="myModalSchool">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h1 class="modal-title" id="myModalSchool">Education</h1>
+      </div>
+      <div class="modal-body">
+        <h1>University</h1>
+        <div class="row">
+          <div class="col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1">
+            <h3 class="date">2011 - 2013</h3>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 text-center">
+            <h3>Budapest University of Technology and Economics<br><small>Electrical Engineering (Msc)</small></h3>
+            <p>Specialization: Broadband and wireless communications</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1">
+            <h3 class="date">2006 - 2011</h3>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 text-center">
+            <h3>Budapest University of Technology and Economics<br><small>Electrical Engineering (Bsc)</small></h3>
+            <p>Specialization: Mediacommunication</p>
+          </div>
+        </div>
+
+        <h1>Trainings</h1>
+        <div class="row">
+          <div class="col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1">
+            <h3 class="date">2015</h3>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 text-center">
+            <h3>Patton SmartNode VoIP Certification<br><small>Renew</small></h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1">
+            <h3>2010</h3>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 text-center">
+            <h3>Patton SmartNode VoIP Certification</h3>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-2">
+            <button type="button" class="btn purple schoolMore" data-toggle="collapse" data-target="#SNContent" aria-expanded="false" aria-controls="SNContent">More</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 collapse text-center" id="SNContent">
+            <p>Based on SmartWare Release 5.X, this course provides in-depth knowledge how to install, configure and support the complete line of SmartNode VoIP products for data, voice, and telephony applications.</p>
+          </div>
+        </div>
+
+        <h1 id="pub">Publications, Student Projects, Conferences</h1>
+
+        <div class="row">
+          <div class="col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1">
+            <h3>2011</h3>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 text-center">
+            <h3>BEXUS/REXUS (Student Project)<br><small>European Space Agency, the Netherlands</small></h3>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-2">
+            <button type="button" class="btn purple schoolMore" data-toggle="collapse" data-target="#BR1Content" aria-expanded="false" aria-controls="BR1Content">More</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 collapse text-center" id="BR1Content">
+            <p>Continuous measurement of the change of UV radiation in dependence of altitude</p>
+            <p>Electrical Engineer</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1">
+            <h3>2011</h3>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 text-center">
+            <h3>BEXUS/REXUS Selection Workshop (Conference)<br><small>European Space Agency, the Netherlands</small></h3>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-2">
+            <button type="button" class="btn purple schoolMore" data-toggle="collapse" data-target="#BR2Content" aria-expanded="false" aria-controls="BR2Content">More</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 collapse text-center" id="BR2Content">
+            <p>Continuous measurement of the change of UV radiation in dependence of altitude (Presenter)</p>
+            <p>Noordwijk, the Netherlands</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1">
+            <h3>2011</h3>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 text-center">
+            <h3>Scientific Students' Associations<br><small>Budapest University of Technology</small></h3>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-2">
+            <button type="button" class="btn purple schoolMore" data-toggle="collapse" data-target="#Sci1Content" aria-expanded="false" aria-controls="Sci1Content">More</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 collapse text-center" id="Sci1Content">
+            <p>Development of an in situ Biodozimetria Experiments on Satellite Board</p>
+            <p>3th price</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1">
+            <h3>2011</h3>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6  text-center">
+            <h3>Scientific Students' Associations<br><small>Semmelweis University</small></h3>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-2">
+            <button type="button" class="btn purple schoolMore" data-toggle="collapse" data-target="#Sci2Content" aria-expanded="false" aria-controls="Sci2Content">More</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 collapse text-center" id="Sci2Content">
+            <p>Use of an in situ Biodoziometria Experiment in Space</p>
+            <p>Compliment</p>
+          </div>
+        </div>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modals CONTACT -->
+<div id="myContact" class="modal modal-wide fade"  tabindex="-1" role="dialog" aria-labelledby="myModalContact">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h1 class="modal-title" id="myModalContact">Contact</h1>
+      </div>
+      <div class="modal-body">
+        <h1>Leave a message!</h1>
+        <div class="text-center">
+          <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+            <div class="row">
+              <label for="name">Your name:</label><br/>
+              <input id="name" class="input" name="name" type="text" value="" size="30" required /><br/>
+            </div>
+            <div class="row">
+              <label for="email">Your email:</label><br/>
+              <input id="email" class="input" name="email" type="text" value="" size="30" required/><br/>
+            </div>
+            <div class="row">
+              <label for="message">Your message:</label><br/>
+              <textarea id="message" class="input" name="message" rows="7" cols="30" required></textarea><br/>
+            </div>
+            <input id="submit_button" class="btn orange contactSub" type="submit" value="Send email"/>
+          </form>
+      </div>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modals ME -->
+<div id="myMe" class="modal modal-wide fade"  tabindex="-1" role="dialog" aria-labelledby="myModalMe">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h1 class="modal-title" id="myModalMe">About Me</h1>
+      </div>
+      <div class="modal-body">
+        <h1>Eva Kovaliczky</h1>
+        <div class="text-center">
+          <img class="img-responsive aboutMe" src="images/Eve.JPG" alt="This is me"/>
+          <div class="conatiner motivation">
+            <h3>Motivation</h3>
+            <p>After finishing the university I started to be interested in Fine Arts. I enrolled in a drawing course, where I could study freehand drawing. Later, mostly in autodidact's way, I learnt digital graphich and imaging. (Adobe Illustrator and Photshop). I would have combine this area with engineering so I decieded to learn web programming and web design. After eight months learning and practising, I can confidently say that I find myself.</p>
+          </div>
+        </div>        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
