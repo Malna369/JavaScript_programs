@@ -1,4 +1,6 @@
 # JavaScript_programs
 My JavaScript practising
 
-My basic Javascript projects.
+Json: Practising how the data representation works.
+MatchingGame03.html: Little Javascript game.
+kovaliczky: My personal web page.
